@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Module_4_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Калькулятор"  SizeToContent="WidthAndHeight" >
+    <Grid Width="310" Height="400" VerticalAlignment="Top">
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF405F43" Offset="0.5"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+                Width="60" Margin="20,110,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+                Width="60" Margin="20,180,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+                 Width="60" Margin="20,250,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+                 Width="60" Margin="20,320,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+                Width="60" Margin="90,110,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+                Width="60" Margin="90,180,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+                Width="60" Margin="90,250,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="." HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+                Width="60" Margin="90,320,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+        Width="60" Margin="160,110,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+        Width="60" Margin="160,180,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+        Width="60" Margin="160,250,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+        Width="60" Margin="160,320,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+        Width="60" Margin="230,110,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+        Width="60" Margin="230,180,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+        Width="60" Margin="230,250,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60"  
+        Width="60" Margin="230,320,0,0" FontSize="24" FontFamily="Arial" FontWeight="Bold" Foreground="Black" BorderBrush="Black" Background="#FFBBAFAF" />
+        <TextBlock  HorizontalAlignment="Left" VerticalAlignment="Top" Height="70"  Width="270" Margin="20,20,0,0" Background="White" />
+
     </Grid>
 </Window>
